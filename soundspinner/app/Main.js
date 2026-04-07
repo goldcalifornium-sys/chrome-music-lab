@@ -19,7 +19,7 @@ require(["domready", "interface/UserInterface", "main.scss", "mic/Waveform", "mi
 	function(domReady, UserInterface, mainStyle, Waveform, Recorder, Player, Loader, StartAudioContext, Tone, Microphone){
 
 	domReady(function(){
-		var recordTime = 3;
+		var recordTime = 300;
 
 		var buttonTimeout  = -1;
 		var currentRotation = 0;
